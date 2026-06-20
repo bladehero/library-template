@@ -8,6 +8,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
+    # Skip publishing from the template repo itself; only repos created from
+    # it (which have a different full name) should publish. Generated repos
+    # publish automatically once their VERSION variable and GH_PAT secret exist.
+    if: github.repository != 'bladehero/library-template'
+
     # Published version comes from the `VERSION` repository variable
     # (Settings -> Secrets and variables -> Actions -> Variables). After a
     # successful publish, the patch is incremented and written back to the
