@@ -7,6 +7,8 @@
         <Authors>bladehero</Authors>
         <PackageDescription>LibraryTemplate</PackageDescription>
         <RepositoryUrl>https://github.com/bladehero/LibraryTemplate</RepositoryUrl>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 </Project>
