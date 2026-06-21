@@ -1,4 +1,4 @@
-# Library Template for .NET 8
+# Library Template for .NET 10
 
 ## Included:
 - csharpier
