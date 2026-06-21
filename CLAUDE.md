@@ -1,6 +1,6 @@
 # library-template
 
-A .NET library template (`netstandard2.0`) that publishes a NuGet package on every merge to `master`. By default it publishes to **GitHub Packages**; it can additionally publish to **nuget.org** via Trusted Publishing (opt-in, see below).
+A .NET library template (multi-targeting `netstandard2.0` + `netstandard2.1`, built with the .NET 10 SDK) that publishes a NuGet package on every merge to `master`. By default it publishes to **GitHub Packages**; it can additionally publish to **nuget.org** via Trusted Publishing (opt-in, see below).
 
 ## Versioning
 
